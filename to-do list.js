@@ -1,7 +1,7 @@
 function addTask() {
-   var taskInput = document.getElementById("taskinput"); // Get input element
+   var taskInput = document.getElementById("taskinput"); 
    var taskList = document.getElementById("tasklist");
-   var taskValue = taskInput.value; // Store input value
+   var taskValue = taskInput.value; 
 
    if (taskValue == "") {
        alert("Please enter the task");
@@ -30,5 +30,5 @@ function addTask() {
        listItems.classList.toggle('Completed');
    };
 
-   taskInput.value = ""; // ✅ Now it will properly clear the input field
+   taskInput.value = ""; 
 }
