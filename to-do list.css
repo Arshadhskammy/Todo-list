@@ -1,0 +1,129 @@
+/* 🌍 Apply a soft gradient background */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 🔤 Heading */
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔳 Input & Button Container */
+input, button {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+/* 📌 Stylish Input Field */
+input {
+    width: 280px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    padding: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input::placeholder {
+    color: #eee;
+}
+
+/* ➕ Add Task Button */
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* 📜 Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+/* 📝 Styling Each Task Item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    border-left: 6px solid #4CAF50;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+/* ✅ Completed Task */
+.Completed {
+    text-decoration: line-through;
+    color: #888;
+    border-left: 6px solid #888;
+}
+
+/* 🎭 Task Button Container */
+.task-button {
+    display: flex;
+    gap: 12px;
+}
+
+/* 🎯 Common Button Styling */
+.task-button button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* ❌ Delete Button */
+.task-button .delete {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.task-button .delete:hover {
+    background-color: #d63434;
+}
+
+/* ✅ Complete Button */
+.task-button .complete {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task-button .complete:hover {
+    background-color: #3e8e41;
+}
