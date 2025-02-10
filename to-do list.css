@@ -1,4 +1,4 @@
-/* 🌍 Apply a soft gradient background */
+
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-/* 🔤 Heading */
+
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
@@ -20,7 +20,7 @@ h2 {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 🔳 Input & Button Container */
+
 input, button {
     padding: 12px;
     border-radius: 6px;
@@ -28,7 +28,7 @@ input, button {
     font-size: 16px;
 }
 
-/* 📌 Stylish Input Field */
+
 input {
     width: 280px;
     margin-right: 10px;
@@ -43,7 +43,7 @@ input::placeholder {
     color: #eee;
 }
 
-/* ➕ Add Task Button */
+
 button {
     background-color: #ff9800;
     color: white;
@@ -56,7 +56,7 @@ button:hover {
     background-color: #e68900;
 }
 
-/* 📜 Task List */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -65,7 +65,7 @@ ul {
     margin-top: 20px;
 }
 
-/* 📝 Styling Each Task Item */
+
 li {
     display: flex;
     justify-content: space-between;
@@ -84,20 +84,20 @@ li:hover {
     transform: scale(1.02);
 }
 
-/* ✅ Completed Task */
+
 .Completed {
     text-decoration: line-through;
     color: #888;
     border-left: 6px solid #888;
 }
 
-/* 🎭 Task Button Container */
+
 .task-button {
     display: flex;
     gap: 12px;
 }
 
-/* 🎯 Common Button Styling */
+
 .task-button button {
     padding: 8px 14px;
     border: none;
@@ -108,7 +108,7 @@ li:hover {
     transition: 0.3s ease-in-out;
 }
 
-/* ❌ Delete Button */
+
 .task-button .delete {
     background-color: #ff4d4d;
     color: white;
@@ -118,7 +118,7 @@ li:hover {
     background-color: #d63434;
 }
 
-/* ✅ Complete Button */
+
 .task-button .complete {
     background-color: #4CAF50;
     color: white;
